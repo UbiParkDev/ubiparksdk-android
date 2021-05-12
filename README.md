@@ -2,6 +2,17 @@
 UbiPark SDK for Android
 
 ### Requirements
+#### Dependencies
+    // Bluecats
+    implementation 'com.bluecats:bluecats-android-sdk:2.1.7'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+
 #### AndroidManifest.xml
 The permissions and service is the absolute minimum required to allow the SDK to run.
 ```xml
