@@ -1,561 +1,565 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>LaneBeaconModel</title>
-<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="../../../index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>UbiParkSDK</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
         <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="UbiParkSDK::com.ubipark.ubiparksdk.models/LaneBeaconModel///PointingToDeclaration//-2070806298">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../../index.html">UbiParkSDK</a>/<a href="../index.html">com.ubipark.ubiparksdk.models</a>/<a href="index.html">LaneBeaconModel</a></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
-            </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Lane</span><wbr></wbr><span>Beacon</span><wbr></wbr><span>Model</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace">public final class <a href="index.html">LaneBeaconModel</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Details of a lane beacon</p></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="tabbedcontent">Constructors</h2>
-              <div class="table" data-togglable="Constructors"><a data-name="-1573184966%2FConstructors%2F-2070806298" anchor-label="LaneBeaconModel" id="-1573184966%2FConstructors%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-lane-beacon-model.html">LaneBeaconModel</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1573184966%2FConstructors%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><a href="index.html">LaneBeaconModel</a> <a href="-lane-beacon-model.html">LaneBeaconModel</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief ">Creates a new LaneBeaconModel</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="728625494%2FFunctions%2F-2070806298" anchor-label="copy" id="728625494%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="copy.html">copy</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="728625494%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="index.html">LaneBeaconModel</a> <a href="copy.html">copy</a>(<a href="index.html">LaneBeaconModel</a> laneBeaconModel)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="UbiParkSDK::com.ubipark.ubiparksdk.models/LaneBeaconModel///PointingToDeclaration//-2070806298">
+  <div class="breadcrumbs"><a href="../../../index.html">UbiParkSDK</a><span class="delimiter">/</span><a href="../index.html">com.ubipark.ubiparksdk.models</a><span class="delimiter">/</span><a href="index.html">LaneBeaconModel</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Lane</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Model</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><span class="token keyword">class </span><a href="index.html">LaneBeaconModel</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Details of a lane beacon</p></div></div>
   </div>
-<a data-name="728625494%2FFunctions%2F-2070806298" anchor-label="copy" id="728625494%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="728625494%2FFunctions%2F-2070806298" anchor-label="copy" id="728625494%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Performs a copy of a LaneBeaconModel object and returns a new object without history</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1086011172%2FFunctions%2F-2070806298" anchor-label="getAccuracy" id="1086011172%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-accuracy.html">getAccuracy</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1086011172%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> <a href="get-accuracy.html">getAccuracy</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1086011172%2FFunctions%2F-2070806298" anchor-label="getAccuracy" id="1086011172%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1086011172%2FFunctions%2F-2070806298" anchor-label="getAccuracy" id="1086011172%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Accuracy value of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1587281502%2FFunctions%2F-2070806298" anchor-label="getBeaconId" id="1587281502%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-beacon-id.html">getBeaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1587281502%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-id.html">getBeaconId</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1587281502%2FFunctions%2F-2070806298" anchor-label="getBeaconId" id="1587281502%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1587281502%2FFunctions%2F-2070806298" anchor-label="getBeaconId" id="1587281502%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>The identifier of a beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1565403118%2FFunctions%2F-2070806298" anchor-label="getBeaconName" id="1565403118%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-beacon-name.html">getBeaconName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1565403118%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-name.html">getBeaconName</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1565403118%2FFunctions%2F-2070806298" anchor-label="getBeaconName" id="1565403118%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1565403118%2FFunctions%2F-2070806298" anchor-label="getBeaconName" id="1565403118%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Name of the beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="2109194468%2FFunctions%2F-2070806298" anchor-label="getBeaconSerialNo" id="2109194468%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-beacon-serial-no.html">getBeaconSerialNo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2109194468%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-serial-no.html">getBeaconSerialNo</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="2109194468%2FFunctions%2F-2070806298" anchor-label="getBeaconSerialNo" id="2109194468%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="2109194468%2FFunctions%2F-2070806298" anchor-label="getBeaconSerialNo" id="2109194468%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's serial number</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1276744553%2FFunctions%2F-2070806298" anchor-label="getHistory" id="1276744553%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-history.html">getHistory</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1276744553%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a>&lt;<a href="index.html">LaneBeaconModel</a>&gt; <a href="get-history.html">getHistory</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1276744553%2FFunctions%2F-2070806298" anchor-label="getHistory" id="1276744553%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1276744553%2FFunctions%2F-2070806298" anchor-label="getHistory" id="1276744553%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>A history of changes to thisn object</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-2121418286%2FFunctions%2F-2070806298" anchor-label="getLaneBeaconId" id="-2121418286%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-lane-beacon-id.html">getLaneBeaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2121418286%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-lane-beacon-id.html">getLaneBeaconId</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-2121418286%2FFunctions%2F-2070806298" anchor-label="getLaneBeaconId" id="-2121418286%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-2121418286%2FFunctions%2F-2070806298" anchor-label="getLaneBeaconId" id="-2121418286%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Unique identifier for a lane beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-116117005%2FFunctions%2F-2070806298" anchor-label="getMeasuredPowerAt1Meter" id="-116117005%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-measured-power-at1-meter.html">getMeasuredPowerAt1Meter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-116117005%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-measured-power-at1-meter.html">getMeasuredPowerAt1Meter</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-116117005%2FFunctions%2F-2070806298" anchor-label="getMeasuredPowerAt1Meter" id="-116117005%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-116117005%2FFunctions%2F-2070806298" anchor-label="getMeasuredPowerAt1Meter" id="-116117005%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's power at 1 meter</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1150952926%2FFunctions%2F-2070806298" anchor-label="getProximity" id="1150952926%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-proximity.html">getProximity</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1150952926%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-proximity.html">getProximity</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1150952926%2FFunctions%2F-2070806298" anchor-label="getProximity" id="1150952926%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1150952926%2FFunctions%2F-2070806298" anchor-label="getProximity" id="1150952926%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Proximity value of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="782624134%2FFunctions%2F-2070806298" anchor-label="getRssi" id="782624134%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-rssi.html">getRssi</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="782624134%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-rssi.html">getRssi</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="782624134%2FFunctions%2F-2070806298" anchor-label="getRssi" id="782624134%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="782624134%2FFunctions%2F-2070806298" anchor-label="getRssi" id="782624134%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1389956665%2FFunctions%2F-2070806298" anchor-label="getRssiSmoothed" id="1389956665%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-rssi-smoothed.html">getRssiSmoothed</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1389956665%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-rssi-smoothed.html">getRssiSmoothed</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1389956665%2FFunctions%2F-2070806298" anchor-label="getRssiSmoothed" id="1389956665%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1389956665%2FFunctions%2F-2070806298" anchor-label="getRssiSmoothed" id="1389956665%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon smoothed over time</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-2129626964%2FFunctions%2F-2070806298" anchor-label="setAccuracy" id="-2129626964%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-accuracy.html">setAccuracy</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2129626964%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-accuracy.html">setAccuracy</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> accuracy)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-2129626964%2FFunctions%2F-2070806298" anchor-label="setAccuracy" id="-2129626964%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-2129626964%2FFunctions%2F-2070806298" anchor-label="setAccuracy" id="-2129626964%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Accuracy value of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="72356722%2FFunctions%2F-2070806298" anchor-label="setBeaconId" id="72356722%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-beacon-id.html">setBeaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="72356722%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-id.html">setBeaconId</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconId)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="72356722%2FFunctions%2F-2070806298" anchor-label="setBeaconId" id="72356722%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="72356722%2FFunctions%2F-2070806298" anchor-label="setBeaconId" id="72356722%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>The identifier of a beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1191436062%2FFunctions%2F-2070806298" anchor-label="setBeaconName" id="-1191436062%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-beacon-name.html">setBeaconName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1191436062%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-name.html">setBeaconName</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconName)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1191436062%2FFunctions%2F-2070806298" anchor-label="setBeaconName" id="-1191436062%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1191436062%2FFunctions%2F-2070806298" anchor-label="setBeaconName" id="-1191436062%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Name of the beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-881335892%2FFunctions%2F-2070806298" anchor-label="setBeaconSerialNo" id="-881335892%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-beacon-serial-no.html">setBeaconSerialNo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-881335892%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-serial-no.html">setBeaconSerialNo</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconSerialNo)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-881335892%2FFunctions%2F-2070806298" anchor-label="setBeaconSerialNo" id="-881335892%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-881335892%2FFunctions%2F-2070806298" anchor-label="setBeaconSerialNo" id="-881335892%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's serial number</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1980178418%2FFunctions%2F-2070806298" anchor-label="setHistory" id="-1980178418%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-history.html">setHistory</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1980178418%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-history.html">setHistory</a>(<a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a>&lt;<a href="index.html">LaneBeaconModel</a>&gt; history)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1980178418%2FFunctions%2F-2070806298" anchor-label="setHistory" id="-1980178418%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1980178418%2FFunctions%2F-2070806298" anchor-label="setHistory" id="-1980178418%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>A history of changes to thisn object</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="656346931%2FFunctions%2F-2070806298" anchor-label="setLaneBeaconId" id="656346931%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-lane-beacon-id.html">setLaneBeaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="656346931%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-lane-beacon-id.html">setLaneBeaconId</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> laneBeaconId)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="656346931%2FFunctions%2F-2070806298" anchor-label="setLaneBeaconId" id="656346931%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="656346931%2FFunctions%2F-2070806298" anchor-label="setLaneBeaconId" id="656346931%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Unique identifier for a lane beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1089211354%2FFunctions%2F-2070806298" anchor-label="setMeasuredPowerAt1Meter" id="1089211354%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-measured-power-at1-meter.html">setMeasuredPowerAt1Meter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1089211354%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-measured-power-at1-meter.html">setMeasuredPowerAt1Meter</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> measuredPowerAt1Meter)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1089211354%2FFunctions%2F-2070806298" anchor-label="setMeasuredPowerAt1Meter" id="1089211354%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1089211354%2FFunctions%2F-2070806298" anchor-label="setMeasuredPowerAt1Meter" id="1089211354%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's power at 1 meter</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="497358095%2FFunctions%2F-2070806298" anchor-label="setProximity" id="497358095%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-proximity.html">setProximity</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="497358095%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-proximity.html">setProximity</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> proximity)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="497358095%2FFunctions%2F-2070806298" anchor-label="setProximity" id="497358095%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="497358095%2FFunctions%2F-2070806298" anchor-label="setProximity" id="497358095%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Proximity value of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1354623233%2FFunctions%2F-2070806298" anchor-label="setRssi" id="-1354623233%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-rssi.html">setRssi</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1354623233%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-rssi.html">setRssi</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> rssi)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1354623233%2FFunctions%2F-2070806298" anchor-label="setRssi" id="-1354623233%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1354623233%2FFunctions%2F-2070806298" anchor-label="setRssi" id="-1354623233%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1951349652%2FFunctions%2F-2070806298" anchor-label="setRssiSmoothed" id="-1951349652%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-rssi-smoothed.html">setRssiSmoothed</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1951349652%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-rssi-smoothed.html">setRssiSmoothed</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> rssiSmoothed)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1951349652%2FFunctions%2F-2070806298" anchor-label="setRssiSmoothed" id="-1951349652%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1951349652%2FFunctions%2F-2070806298" anchor-label="setRssiSmoothed" id="-1951349652%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon smoothed over time</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1695638119%2FFunctions%2F-2070806298" anchor-label="toModel" id="-1695638119%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="to-model.html">toModel</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1695638119%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="index.html">LaneBeaconModel</a> <a href="to-model.html">toModel</a>(<a href="../-lane-beacon-result/index.html">LaneBeaconResult</a> laneBeaconResult)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1695638119%2FFunctions%2F-2070806298" anchor-label="toModel" id="-1695638119%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1695638119%2FFunctions%2F-2070806298" anchor-label="toModel" id="-1695638119%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Copies <a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a> and carParkId of  laneBeaconResult to a new LaneBeaconModel object</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#1331190190%2FProperties%2F-2070806298">accuracy</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1331190190%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> <a href="index.html#1331190190%2FProperties%2F-2070806298">accuracy</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Accuracy value of beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1832460520%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>The identifier of a beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#959238136%2FProperties%2F-2070806298">beaconName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="959238136%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#959238136%2FProperties%2F-2070806298">beaconName</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Name of the beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#2056213486%2FProperties%2F-2070806298">beaconSerialNo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2056213486%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#2056213486%2FProperties%2F-2070806298">beaconSerialNo</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's serial number</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#-1486293089%2FProperties%2F-2070806298">history</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1486293089%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a>&lt;<a href="index.html">LaneBeaconModel</a>&gt; <a href="index.html#-1486293089%2FProperties%2F-2070806298">history</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>A history of changes to thisn object</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#-530413732%2FProperties%2F-2070806298">laneBeaconId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-530413732%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-530413732%2FProperties%2F-2070806298">laneBeaconId</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Unique identifier for a lane beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#-2014511191%2FProperties%2F-2070806298">measuredPowerAt1Meter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2014511191%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-2014511191%2FProperties%2F-2070806298">measuredPowerAt1Meter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Beacon's power at 1 meter</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#161567892%2FProperties%2F-2070806298">proximity</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="161567892%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#161567892%2FProperties%2F-2070806298">proximity</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Proximity value of beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#1618861328%2FProperties%2F-2070806298">rssi</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1618861328%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#1618861328%2FProperties%2F-2070806298">rssi</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#-1314006077%2FProperties%2F-2070806298">rssiSmoothed</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1314006077%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">private  <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-1314006077%2FProperties%2F-2070806298">rssiSmoothed</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>RSSI strength of beacon smoothed over time</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-1573184966%2FConstructors%2F-2070806298" anchor-label="LaneBeaconModel" id="-1573184966%2FConstructors%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-lane-beacon-model.html"><span>Lane</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Model</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1573184966%2FConstructors%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a> <a href="-lane-beacon-model.html"><span class="token function">LaneBeaconModel</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Creates a new <strong>LaneBeaconModel</strong></p></div></div></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="728625494%2FFunctions%2F-2070806298" anchor-label="copy" id="728625494%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="copy.html"><span><span>copy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="728625494%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a> <a href="copy.html"><span class="token function">copy</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a> laneBeaconModel</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Performs a copy of a <strong>LaneBeaconModel</strong> object and returns a new object without history</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1086011172%2FFunctions%2F-2070806298" anchor-label="getAccuracy" id="1086011172%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-accuracy.html"><span>get</span><wbr></wbr><span><span>Accuracy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1086011172%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> <a href="get-accuracy.html"><span class="token function">getAccuracy</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Accuracy value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1587281502%2FFunctions%2F-2070806298" anchor-label="getBeaconId" id="1587281502%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-beacon-id.html"><span>get</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1587281502%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-id.html"><span class="token function">getBeaconId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">The identifier of a beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1565403118%2FFunctions%2F-2070806298" anchor-label="getBeaconName" id="1565403118%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-beacon-name.html"><span>get</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1565403118%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-name.html"><span class="token function">getBeaconName</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Name of the beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2109194468%2FFunctions%2F-2070806298" anchor-label="getBeaconSerialNo" id="2109194468%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-beacon-serial-no.html"><span>get</span><wbr></wbr><span>Beacon</span><wbr></wbr><span>Serial</span><wbr></wbr><span><span>No</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2109194468%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-beacon-serial-no.html"><span class="token function">getBeaconSerialNo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Beacon's serial number</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1276744553%2FFunctions%2F-2070806298" anchor-label="getHistory" id="1276744553%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-history.html"><span>get</span><wbr></wbr><span><span>History</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1276744553%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a><span class="token operator">&gt;</span> <a href="get-history.html"><span class="token function">getHistory</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">A history of changes to thisn object</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2121418286%2FFunctions%2F-2070806298" anchor-label="getLaneBeaconId" id="-2121418286%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-lane-beacon-id.html"><span>get</span><wbr></wbr><span>Lane</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2121418286%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-lane-beacon-id.html"><span class="token function">getLaneBeaconId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Unique identifier for a lane beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-116117005%2FFunctions%2F-2070806298" anchor-label="getMeasuredPowerAt1Meter" id="-116117005%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-measured-power-at1-meter.html"><span>get</span><wbr></wbr><span>Measured</span><wbr></wbr><span>Power</span><wbr></wbr><span><span>At1Meter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-116117005%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-measured-power-at1-meter.html"><span class="token function">getMeasuredPowerAt1Meter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Beacon's power at 1 meter</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1150952926%2FFunctions%2F-2070806298" anchor-label="getProximity" id="1150952926%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-proximity.html"><span>get</span><wbr></wbr><span><span>Proximity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1150952926%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-proximity.html"><span class="token function">getProximity</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Proximity value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="782624134%2FFunctions%2F-2070806298" anchor-label="getRssi" id="782624134%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-rssi.html"><span>get</span><wbr></wbr><span><span>Rssi</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="782624134%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-rssi.html"><span class="token function">getRssi</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">RSSI strength of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1389956665%2FFunctions%2F-2070806298" anchor-label="getRssiSmoothed" id="1389956665%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-rssi-smoothed.html"><span>get</span><wbr></wbr><span>Rssi</span><wbr></wbr><span><span>Smoothed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1389956665%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-rssi-smoothed.html"><span class="token function">getRssiSmoothed</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">RSSI strength of beacon smoothed over time</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2129626964%2FFunctions%2F-2070806298" anchor-label="setAccuracy" id="-2129626964%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-accuracy.html"><span>set</span><wbr></wbr><span><span>Accuracy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2129626964%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-accuracy.html"><span class="token function">setAccuracy</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> accuracy</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Accuracy value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="72356722%2FFunctions%2F-2070806298" anchor-label="setBeaconId" id="72356722%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-beacon-id.html"><span>set</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="72356722%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-id.html"><span class="token function">setBeaconId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconId</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">The identifier of a beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1191436062%2FFunctions%2F-2070806298" anchor-label="setBeaconName" id="-1191436062%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-beacon-name.html"><span>set</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1191436062%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-name.html"><span class="token function">setBeaconName</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconName</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Name of the beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-881335892%2FFunctions%2F-2070806298" anchor-label="setBeaconSerialNo" id="-881335892%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-beacon-serial-no.html"><span>set</span><wbr></wbr><span>Beacon</span><wbr></wbr><span>Serial</span><wbr></wbr><span><span>No</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-881335892%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-beacon-serial-no.html"><span class="token function">setBeaconSerialNo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> beaconSerialNo</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Beacon's serial number</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1980178418%2FFunctions%2F-2070806298" anchor-label="setHistory" id="-1980178418%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-history.html"><span>set</span><wbr></wbr><span><span>History</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1980178418%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-history.html"><span class="token function">setHistory</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a><span class="token operator">&gt;</span> history</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">A history of changes to thisn object</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="656346931%2FFunctions%2F-2070806298" anchor-label="setLaneBeaconId" id="656346931%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-lane-beacon-id.html"><span>set</span><wbr></wbr><span>Lane</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="656346931%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-lane-beacon-id.html"><span class="token function">setLaneBeaconId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> laneBeaconId</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Unique identifier for a lane beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1089211354%2FFunctions%2F-2070806298" anchor-label="setMeasuredPowerAt1Meter" id="1089211354%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-measured-power-at1-meter.html"><span>set</span><wbr></wbr><span>Measured</span><wbr></wbr><span>Power</span><wbr></wbr><span><span>At1Meter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1089211354%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-measured-power-at1-meter.html"><span class="token function">setMeasuredPowerAt1Meter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> measuredPowerAt1Meter</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Beacon's power at 1 meter</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="497358095%2FFunctions%2F-2070806298" anchor-label="setProximity" id="497358095%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-proximity.html"><span>set</span><wbr></wbr><span><span>Proximity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="497358095%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-proximity.html"><span class="token function">setProximity</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> proximity</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Proximity value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1354623233%2FFunctions%2F-2070806298" anchor-label="setRssi" id="-1354623233%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-rssi.html"><span>set</span><wbr></wbr><span><span>Rssi</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1354623233%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-rssi.html"><span class="token function">setRssi</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> rssi</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">RSSI strength of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1951349652%2FFunctions%2F-2070806298" anchor-label="setRssiSmoothed" id="-1951349652%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-rssi-smoothed.html"><span>set</span><wbr></wbr><span>Rssi</span><wbr></wbr><span><span>Smoothed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1951349652%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-rssi-smoothed.html"><span class="token function">setRssiSmoothed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> rssiSmoothed</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">RSSI strength of beacon smoothed over time</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1695638119%2FFunctions%2F-2070806298" anchor-label="toModel" id="-1695638119%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="to-model.html"><span>to</span><wbr></wbr><span><span>Model</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1695638119%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a> <a href="to-model.html"><span class="token function">toModel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../-lane-beacon-result/index.html">LaneBeaconResult</a> laneBeaconResult</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Copies <a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a> and carParkId of  <strong>laneBeaconResult</strong> to a new <strong>LaneBeaconModel</strong> object</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1331190190%2FProperties%2F-2070806298">accuracy</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1331190190%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Double.html">Double</a> <a href="index.html#1331190190%2FProperties%2F-2070806298">accuracy</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1331190190%2FProperties%2F-2070806298" anchor-label="accuracy" id="1331190190%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Accuracy value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1832460520%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#1832460520%2FProperties%2F-2070806298">beaconId</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1832460520%2FProperties%2F-2070806298" anchor-label="beaconId" id="1832460520%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">The identifier of a beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#959238136%2FProperties%2F-2070806298">beaconName</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="959238136%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#959238136%2FProperties%2F-2070806298">beaconName</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="959238136%2FProperties%2F-2070806298" anchor-label="beaconName" id="959238136%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Name of the beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#2056213486%2FProperties%2F-2070806298">beaconSerialNo</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2056213486%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#2056213486%2FProperties%2F-2070806298">beaconSerialNo</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="2056213486%2FProperties%2F-2070806298" anchor-label="beaconSerialNo" id="2056213486%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Beacon's serial number</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1486293089%2FProperties%2F-2070806298">history</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1486293089%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">LaneBeaconModel</a><span class="token operator">&gt;</span> <a href="index.html#-1486293089%2FProperties%2F-2070806298">history</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1486293089%2FProperties%2F-2070806298" anchor-label="history" id="-1486293089%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">A history of changes to thisn object</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-530413732%2FProperties%2F-2070806298">laneBeaconId</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-530413732%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-530413732%2FProperties%2F-2070806298">laneBeaconId</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-530413732%2FProperties%2F-2070806298" anchor-label="laneBeaconId" id="-530413732%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Unique identifier for a lane beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-2014511191%2FProperties%2F-2070806298">measuredPowerAt1Meter</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2014511191%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-2014511191%2FProperties%2F-2070806298">measuredPowerAt1Meter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-2014511191%2FProperties%2F-2070806298" anchor-label="measuredPowerAt1Meter" id="-2014511191%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Beacon's power at 1 meter</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#161567892%2FProperties%2F-2070806298">proximity</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="161567892%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#161567892%2FProperties%2F-2070806298">proximity</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="161567892%2FProperties%2F-2070806298" anchor-label="proximity" id="161567892%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">Proximity value of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1618861328%2FProperties%2F-2070806298">rssi</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1618861328%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#1618861328%2FProperties%2F-2070806298">rssi</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1618861328%2FProperties%2F-2070806298" anchor-label="rssi" id="1618861328%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">RSSI strength of beacon</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1314006077%2FProperties%2F-2070806298">rssiSmoothed</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1314006077%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword"> </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="index.html#-1314006077%2FProperties%2F-2070806298">rssiSmoothed</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1314006077%2FProperties%2F-2070806298" anchor-label="rssiSmoothed" id="-1314006077%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><p class="paragraph">RSSI strength of beacon smoothed over time</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+        </div>
+    </div>
+</div>
+</body>
 </html>
-

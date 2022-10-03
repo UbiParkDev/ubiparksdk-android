@@ -145,13 +145,13 @@ $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getDevicePlat
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getDeviceType/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-device-type.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getDeviceVersion/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-device-version.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getInCarPark/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-in-car-park.html
-$dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getIsNested/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getItems/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-items.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getLaneID/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-lane-i-d.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getReasonType/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-reason-type.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getTimestampUTC/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-timestamp-u-t-c.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getUserId/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-user-id.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/getUserToken/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/get-user-token.html
+$dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/isNested/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setAppBuild/#kotlin.String?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-app-build.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setAppId/#kotlin.String?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-app-id.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setAppName/#kotlin.String?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-app-name.html
@@ -170,9 +170,9 @@ $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setDevicePlat
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setDeviceType/#kotlin.String?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-device-type.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setDeviceVersion/#kotlin.String?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-device-version.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setInCarPark/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-in-car-park.html
-$dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setIsNested/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setItems/#java.util.ArrayList[com.ubipark.ubiparksdk.models.BeaconPayloadItem]/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-items.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setLaneID/#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-lane-i-d.html
+$dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setNested/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setReasonType/#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-reason-type.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setTimestampUTC/#java.util.Date/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-timestamp-u-t-c.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadRequest/setUserId/#kotlin.Long?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-request/set-user-id.html
@@ -772,13 +772,13 @@ $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getHasCard/#/Pointing
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getHomeCarParkId/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-home-car-park-id.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getHomeCarParkName/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-home-car-park-name.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getInCarPark/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-in-car-park.html
-$dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getIsNested/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getLanes/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-lanes.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getMessage/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-message.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getReservedBay/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-reserved-bay.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getResult/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-result.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getSecondsInCarPark/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-seconds-in-car-park.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/getServerTime/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/get-server-time.html
+$dokka.location:com.ubipark.ubiparksdk.models/StatusResult/isNested/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setAccessStatus/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-access-status.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setAccountType/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-account-type.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setAmount/#kotlin.Double?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-amount.html
@@ -795,9 +795,9 @@ $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setHasCard/#kotlin.Bo
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setHomeCarParkId/#kotlin.Long?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-home-car-park-id.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setHomeCarParkName/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-home-car-park-name.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setInCarPark/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-in-car-park.html
-$dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setIsNested/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-is-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setLanes/#kotlin.collections.List[com.ubipark.ubiparksdk.models.LaneResult]/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-lanes.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setMessage/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-message.html
+$dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setNested/#kotlin.Boolean/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-nested.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setReservedBay/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-reserved-bay.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setResult/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-result.html
 $dokka.location:com.ubipark.ubiparksdk.models/StatusResult/setSecondsInCarPark/#kotlin.Long?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-status-result/set-seconds-in-car-park.html
@@ -915,7 +915,6 @@ $dokka.location:com.ubipark.ubiparksdk.models/UserResult/setUserId/#kotlin.Long/
 $dokka.location:com.ubipark.ubiparksdk.services////PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/index.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/index.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/BeaconJobService/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/-beacon-job-service.html
-$dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/onCreate/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/on-create.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/onStartJob/#android.app.job.JobParameters/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/on-start-job.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/onStopJob/#android.app.job.JobParameters?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/on-stop-job.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconSDKService///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-s-d-k-service/index.html
@@ -926,6 +925,8 @@ $dokka.location:com.ubipark.ubiparksdk.services/BeaconService///PointingToDeclar
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getCarParkId/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-car-park-id.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getCarParkName/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-car-park-name.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getClosestLane/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-closest-lane.html
+$dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getStatus/#kotlin.Function1[com.ubipark.ubiparksdk.services.BeaconServiceResult?,kotlin.Unit]/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-status.html
+$dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getUserStatusCurrent/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-user-status-current.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/init/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/init.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/initService/#android.content.Context#com.ubipark.ubiparksdk.services.BeaconServiceCallback/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/init-service.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/onBackground/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/on-background.html
@@ -952,14 +953,12 @@ $dokka.location:com.ubipark.ubiparksdk.services/BeaconServiceResult/setSuccess/#
 $dokka.location:com.ubipark.ubiparksdk////PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/index.html
 $dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.Companion///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-companion/index.html
 $dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.Companion/levelOf/#kotlin.Int/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-companion/level-of.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.HIGH///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-h-i-g-h/index.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.LOW///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-l-o-w/index.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.MED///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-m-e-d/index.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.NONE///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-n-o-n-e/index.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.VERBOSE///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-v-e-r-b-o-s-e/index.html
+$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.HIGH///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-h-i-g-h/index.html
+$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.LOW///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-l-o-w/index.html
+$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.MED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-m-e-d/index.html
+$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.NONE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-n-o-n-e/index.html
+$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel.VERBOSE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/-v-e-r-b-o-s-e/index.html
 $dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/index.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel/getName/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/get-name.html
-$dokka.location:com.ubipark.ubiparksdk/BeaconLogLevel/getOrdinal/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/get-ordinal.html
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/index.html
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/getAppBuild/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/get-app-build.html
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/getAppId/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/get-app-id.html
@@ -1006,6 +1005,8 @@ $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/setServerName/#kotlin.St
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/setUser/#kotlin.Long#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/set-user.html
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/setUserId/#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/set-user-id.html
 $dokka.location:com.ubipark.ubiparksdk/UbiParkSDKConfig/setUserToken/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-ubi-park-s-d-k-config/set-user-token.html
+$dokka.location:kotlin/BeaconLogLevel/getName/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/get-name.html
+$dokka.location:kotlin/BeaconLogLevel/getOrdinal/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk/-beacon-log-level/get-ordinal.html
 com.ubipark.ubiparksdk
 com.ubipark.ubiparksdk.api
 com.ubipark.ubiparksdk.models

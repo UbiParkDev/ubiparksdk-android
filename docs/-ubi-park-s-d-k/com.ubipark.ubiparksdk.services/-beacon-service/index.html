@@ -1,276 +1,308 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>BeaconService</title>
-<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="../../../index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>UbiParkSDK</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
         <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="UbiParkSDK::com.ubipark.ubiparksdk.services/BeaconService///PointingToDeclaration//-2070806298">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../../index.html">UbiParkSDK</a>/<a href="../index.html">com.ubipark.ubiparksdk.services</a>/<a href="index.html">BeaconService</a></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
-            </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Beacon</span><wbr></wbr><span>Service</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace">public class <a href="index.html">BeaconService</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The BeaconService</p><ul><li><p class="paragraph">To start scanning for beacons call <code>`startService(context: Context, callback: (beaconServiceResult: BeaconServiceResult? ) -&gt; Unit)`</code></p></li></ul></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="-1699430704%2FFunctions%2F-2070806298" anchor-label="getCarParkId" id="-1699430704%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-car-park-id.html">getCarParkId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1699430704%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-car-park-id.html">getCarParkId</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="UbiParkSDK::com.ubipark.ubiparksdk.services/BeaconService///PointingToDeclaration//-2070806298">
+  <div class="breadcrumbs"><a href="../../../index.html">UbiParkSDK</a><span class="delimiter">/</span><a href="../index.html">com.ubipark.ubiparksdk.services</a><span class="delimiter">/</span><a href="index.html">BeaconService</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Beacon</span><wbr></wbr><span><span>Service</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="index.html">BeaconService</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The BeaconService</p><ul><li><p class="paragraph">To start scanning for beacons call <code class="lang-kotlin">`startService(context: Context, callback: (beaconServiceResult: BeaconServiceResult? ) -&gt; Unit)`</code></p></li></ul></div></div>
   </div>
-<a data-name="-1699430704%2FFunctions%2F-2070806298" anchor-label="getCarParkId" id="-1699430704%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1699430704%2FFunctions%2F-2070806298" anchor-label="getCarParkId" id="-1699430704%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Get the Id of the currently detected car park<ul><li><p class="paragraph">The Id of the car park</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-164064288%2FFunctions%2F-2070806298" anchor-label="getCarParkName" id="-164064288%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-car-park-name.html">getCarParkName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-164064288%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-car-park-name.html">getCarParkName</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-164064288%2FFunctions%2F-2070806298" anchor-label="getCarParkName" id="-164064288%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-164064288%2FFunctions%2F-2070806298" anchor-label="getCarParkName" id="-164064288%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Get the name of the currently detected car park<ul><li><p class="paragraph">An empty string is returned for no car park</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="18174212%2FFunctions%2F-2070806298" anchor-label="getClosestLane" id="18174212%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-closest-lane.html">getClosestLane</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="18174212%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="../../com.ubipark.ubiparksdk.models/-lane-model/index.html">LaneModel</a> <a href="get-closest-lane.html">getClosestLane</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="18174212%2FFunctions%2F-2070806298" anchor-label="getClosestLane" id="18174212%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="18174212%2FFunctions%2F-2070806298" anchor-label="getClosestLane" id="18174212%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Get the currently detected closest lane<ul><li><p class="paragraph">It is useful to disable the timer while debugging so that beacon detection is not reset</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-2097793725%2FFunctions%2F-2070806298" anchor-label="init" id="-2097793725%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="init.html">init</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2097793725%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="init.html">init</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-2097793725%2FFunctions%2F-2070806298" anchor-label="init" id="-2097793725%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-2097793725%2FFunctions%2F-2070806298" anchor-label="init" id="-2097793725%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Inititalizes the BeaconService</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-299729187%2FFunctions%2F-2070806298" anchor-label="initService" id="-299729187%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="init-service.html">initService</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-299729187%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="init-service.html">initService</a>(<a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a> context, <a href="../-beacon-service-callback/index.html">BeaconServiceCallback</a> beaconServiceCallback)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-299729187%2FFunctions%2F-2070806298" anchor-label="initService" id="-299729187%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-299729187%2FFunctions%2F-2070806298" anchor-label="initService" id="-299729187%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Initialises the BeaconService, should be called before starting the service<ul><li><p class="paragraph">Before calling <code>`initService`</code></p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-985595258%2FFunctions%2F-2070806298" anchor-label="onBackground" id="-985595258%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="on-background.html">onBackground</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-985595258%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-background.html">onBackground</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-985595258%2FFunctions%2F-2070806298" anchor-label="onBackground" id="-985595258%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-985595258%2FFunctions%2F-2070806298" anchor-label="onBackground" id="-985595258%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Should be called whenever the app is sent to the background<ul><li><p class="paragraph">Reduces beacon scanning frequency to eliminate battery warning messages</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="898913614%2FFunctions%2F-2070806298" anchor-label="onEnter" id="898913614%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="on-enter.html">onEnter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="898913614%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-enter.html">onEnter</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="898913614%2FFunctions%2F-2070806298" anchor-label="onEnter" id="898913614%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="898913614%2FFunctions%2F-2070806298" anchor-label="onEnter" id="898913614%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Should be called whenever a success EnterRequest has been made<ul><li><p class="paragraph">Sends beacon payload data to server if enabled.</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="2144215510%2FFunctions%2F-2070806298" anchor-label="onExit" id="2144215510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="on-exit.html">onExit</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2144215510%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-exit.html">onExit</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="2144215510%2FFunctions%2F-2070806298" anchor-label="onExit" id="2144215510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="2144215510%2FFunctions%2F-2070806298" anchor-label="onExit" id="2144215510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Should be called whenever a success ExitRequest has been made<ul><li><p class="paragraph">Sends beacon payload data to server if enabled.</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-421314543%2FFunctions%2F-2070806298" anchor-label="onForeground" id="-421314543%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="on-foreground.html">onForeground</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-421314543%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-foreground.html">onForeground</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-421314543%2FFunctions%2F-2070806298" anchor-label="onForeground" id="-421314543%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-421314543%2FFunctions%2F-2070806298" anchor-label="onForeground" id="-421314543%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Should be called whenever the app is brought to the foreground<ul><li><p class="paragraph">Attempts to restart the BeaconService if the OS has stoipped it.</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1500344082%2FFunctions%2F-2070806298" anchor-label="setTimerEnabled" id="-1500344082%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-timer-enabled.html">setTimerEnabled</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1500344082%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-timer-enabled.html">setTimerEnabled</a>(<a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a> enabled)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1500344082%2FFunctions%2F-2070806298" anchor-label="setTimerEnabled" id="-1500344082%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1500344082%2FFunctions%2F-2070806298" anchor-label="setTimerEnabled" id="-1500344082%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Enable or disable the beacon service timer<ul><li><p class="paragraph">It is useful to disable the timer while debugging so that beacon detection is not reset</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1540545510%2FFunctions%2F-2070806298" anchor-label="setUserStatus" id="-1540545510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-user-status.html">setUserStatus</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1540545510%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-user-status.html">setUserStatus</a>(<a href="../../com.ubipark.ubiparksdk.models/-status-result/index.html">StatusResult</a> userStatus)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1540545510%2FFunctions%2F-2070806298" anchor-label="setUserStatus" id="-1540545510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1540545510%2FFunctions%2F-2070806298" anchor-label="setUserStatus" id="-1540545510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Used to set the status of the current user<ul><li><p class="paragraph">The status of the user affects what lane beacons are detected. e.g. If a user is not in  the car park then only entry lane beacons are detected.</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1561338741%2FFunctions%2F-2070806298" anchor-label="startService" id="-1561338741%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="start-service.html">startService</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1561338741%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="start-service.html">startService</a>(<a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a> context, <span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span>&lt;<a href="../-beacon-service-result/index.html">BeaconServiceResult</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a>&gt; callback)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1561338741%2FFunctions%2F-2070806298" anchor-label="startService" id="-1561338741%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="-1561338741%2FFunctions%2F-2070806298" anchor-label="startService" id="-1561338741%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Starts the BeaconService<ul><li><p class="paragraph"><code>`initService`</code> should be called before calling <code>`startService`</code>.</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1020452647%2FFunctions%2F-2070806298" anchor-label="stopService" id="1020452647%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="stop-service.html">stopService</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1020452647%2FFunctions%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block">final <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="stop-service.html">stopService</a>(<span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span>&lt;<a href="../-beacon-service-result/index.html">BeaconServiceResult</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a>&gt; callback)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1020452647%2FFunctions%2F-2070806298" anchor-label="stopService" id="1020452647%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="brief "><a data-name="1020452647%2FFunctions%2F-2070806298" anchor-label="stopService" id="1020452647%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>Stops the BeaconService</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="-2133595554%2FProperties%2F-2070806298" anchor-label="INSTANCE" id="-2133595554%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#-2133595554%2FProperties%2F-2070806298">INSTANCE</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2133595554%2FProperties%2F-2070806298"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-2133595554%2FProperties%2F-2070806298" anchor-label="INSTANCE" id="-2133595554%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block">public final static <a href="index.html">BeaconService</a> <a href="index.html#-2133595554%2FProperties%2F-2070806298">INSTANCE</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-1699430704%2FFunctions%2F-2070806298" anchor-label="getCarParkId" id="-1699430704%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-car-park-id.html"><span>get</span><wbr></wbr><span>Car</span><wbr></wbr><span>Park</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1699430704%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Long.html">Long</a> <a href="get-car-park-id.html"><span class="token function">getCarParkId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the Id of the currently detected car park</p></div></div></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+<a data-name="-164064288%2FFunctions%2F-2070806298" anchor-label="getCarParkName" id="-164064288%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-car-park-name.html"><span>get</span><wbr></wbr><span>Car</span><wbr></wbr><span>Park</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-164064288%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-car-park-name.html"><span class="token function">getCarParkName</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the name of the currently detected car park</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="18174212%2FFunctions%2F-2070806298" anchor-label="getClosestLane" id="18174212%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-closest-lane.html"><span>get</span><wbr></wbr><span>Closest</span><wbr></wbr><span><span>Lane</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="18174212%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="../../com.ubipark.ubiparksdk.models/-lane-model/index.html">LaneModel</a> <a href="get-closest-lane.html"><span class="token function">getClosestLane</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the currently detected closest lane</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="816831474%2FFunctions%2F-2070806298" anchor-label="getStatus" id="816831474%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-status.html"><span>get</span><wbr></wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="816831474%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="get-status.html"><span class="token function">getStatus</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-beacon-service-result/index.html">BeaconServiceResult</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get current status of beacon service</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-612492115%2FFunctions%2F-2070806298" anchor-label="getUserStatusCurrent" id="-612492115%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-user-status-current.html"><span>get</span><wbr></wbr><span>User</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Current</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-612492115%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="../../com.ubipark.ubiparksdk.models/-status-result/index.html">StatusResult</a> <a href="get-user-status-current.html"><span class="token function">getUserStatusCurrent</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the current UserStatus</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2097793725%2FFunctions%2F-2070806298" anchor-label="init" id="-2097793725%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="init.html"><span><span>init</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2097793725%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="init.html"><span class="token function">init</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Initializes the <strong>BeaconService</strong></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-299729187%2FFunctions%2F-2070806298" anchor-label="initService" id="-299729187%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="init-service.html"><span>init</span><wbr></wbr><span><span>Service</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-299729187%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="init-service.html"><span class="token function">initService</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a> context<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../-beacon-service-callback/index.html">BeaconServiceCallback</a> beaconServiceCallback</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Initialises the <strong>BeaconService</strong>, should be called before starting the service</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-985595258%2FFunctions%2F-2070806298" anchor-label="onBackground" id="-985595258%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-background.html"><span>on</span><wbr></wbr><span><span>Background</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-985595258%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-background.html"><span class="token function">onBackground</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Should be called whenever the app is sent to the background</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="898913614%2FFunctions%2F-2070806298" anchor-label="onEnter" id="898913614%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-enter.html"><span>on</span><wbr></wbr><span><span>Enter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="898913614%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-enter.html"><span class="token function">onEnter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Should be called whenever a success <strong>EnterRequest</strong> has been made</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2144215510%2FFunctions%2F-2070806298" anchor-label="onExit" id="2144215510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-exit.html"><span>on</span><wbr></wbr><span><span>Exit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2144215510%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-exit.html"><span class="token function">onExit</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Should be called whenever a success <strong>ExitRequest</strong> has been made</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-421314543%2FFunctions%2F-2070806298" anchor-label="onForeground" id="-421314543%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-foreground.html"><span>on</span><wbr></wbr><span><span>Foreground</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-421314543%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-foreground.html"><span class="token function">onForeground</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Should be called whenever the app is brought to the foreground</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1500344082%2FFunctions%2F-2070806298" anchor-label="setTimerEnabled" id="-1500344082%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-timer-enabled.html"><span>set</span><wbr></wbr><span>Timer</span><wbr></wbr><span><span>Enabled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1500344082%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-timer-enabled.html"><span class="token function">setTimerEnabled</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a> enabled</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Enable or disable the beacon service timer</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1540545510%2FFunctions%2F-2070806298" anchor-label="setUserStatus" id="-1540545510%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-user-status.html"><span>set</span><wbr></wbr><span>User</span><wbr></wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1540545510%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="set-user-status.html"><span class="token function">setUserStatus</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../../com.ubipark.ubiparksdk.models/-status-result/index.html">StatusResult</a> userStatus</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Used to set the status of the current user</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1561338741%2FFunctions%2F-2070806298" anchor-label="startService" id="-1561338741%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="start-service.html"><span>start</span><wbr></wbr><span><span>Service</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1561338741%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="start-service.html"><span class="token function">startService</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a> context<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-beacon-service-result/index.html">BeaconServiceResult</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Starts the <strong>BeaconService</strong></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1020452647%2FFunctions%2F-2070806298" anchor-label="stopService" id="1020452647%2FFunctions%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="stop-service.html"><span>stop</span><wbr></wbr><span><span>Service</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1020452647%2FFunctions%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="stop-service.html"><span class="token function">stopService</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-beacon-service-result/index.html">BeaconServiceResult</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Stops the <strong>BeaconService</strong></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-2133595554%2FProperties%2F-2070806298" anchor-label="INSTANCE" id="-2133595554%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":UbiParkSDK:dokkaHtml/release" data-filterable-set=":UbiParkSDK:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-2133595554%2FProperties%2F-2070806298">INSTANCE</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2133595554%2FProperties%2F-2070806298"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":UbiParkSDK:dokkaHtml/release"><a data-name="-2133595554%2FProperties%2F-2070806298" anchor-label="INSTANCE" id="-2133595554%2FProperties%2F-2070806298" data-filterable-set=":UbiParkSDK:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span><a href="index.html">BeaconService</a> <a href="index.html#-2133595554%2FProperties%2F-2070806298">INSTANCE</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+        </div>
+    </div>
+</div>
+</body>
 </html>
-
