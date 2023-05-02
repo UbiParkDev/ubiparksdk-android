@@ -93,7 +93,7 @@ $dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/setName/#kotlin.String
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/setProximity/#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/set-proximity.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/setRssi/#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/set-rssi.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/setSerialNumber/#kotlin.String/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/set-serial-number.html
-$dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/toModel/#com.bluecats.sdk.BCBeacon/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/to-model.html
+$dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/toModel/#com.kontakt.sdk.android.common.profile.IBeaconDevice/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/to-model.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconModel/update/#com.ubipark.ubiparksdk.models.BeaconModel/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-model/update.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadDetail///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-detail/index.html
 $dokka.location:com.ubipark.ubiparksdk.models/BeaconPayloadDetail/BeaconPayloadDetail/#kotlin.String#kotlin.String#kotlin.String#kotlin.Long#kotlin.Long#kotlin.Long#kotlin.Double#kotlin.Long/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.models/-beacon-payload-detail/-beacon-payload-detail.html
@@ -917,14 +917,11 @@ $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService///PointingToDec
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/BeaconJobService/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/-beacon-job-service.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/onStartJob/#android.app.job.JobParameters/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/on-start-job.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconJobService/onStopJob/#android.app.job.JobParameters?/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-job-service/on-stop-job.html
-$dokka.location:com.ubipark.ubiparksdk.services/BeaconSDKService///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-s-d-k-service/index.html
-$dokka.location:com.ubipark.ubiparksdk.services/BeaconSDKService/BeaconSDKService/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-s-d-k-service/-beacon-s-d-k-service.html
-$dokka.location:com.ubipark.ubiparksdk.services/BeaconSDKServiceReceiver///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-s-d-k-service-receiver/index.html
-$dokka.location:com.ubipark.ubiparksdk.services/BeaconSDKServiceReceiver/BeaconSDKServiceReceiver/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-s-d-k-service-receiver/-beacon-s-d-k-service-receiver.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService///PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/index.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getCarParkId/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-car-park-id.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getCarParkName/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-car-park-name.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getClosestLane/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-closest-lane.html
+$dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getProximityManager/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-proximity-manager.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getStatus/#kotlin.Function1[com.ubipark.ubiparksdk.services.BeaconServiceResult?,kotlin.Unit]/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-status.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/getUserStatusCurrent/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/get-user-status-current.html
 $dokka.location:com.ubipark.ubiparksdk.services/BeaconService/init/#/PointingToDeclaration/-ubi-park-s-d-k/com.ubipark.ubiparksdk.services/-beacon-service/init.html
